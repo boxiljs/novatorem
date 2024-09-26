@@ -59,7 +59,7 @@ def refreshToken():
 def get(url):
     global SPOTIFY_TOKEN
 
-    if (SPOTIFY_TOKEN == ""):
+    if (SPOTIFY_TOKEN == "59509b133fa54a44b10d688161a6f6ad"):
         SPOTIFY_TOKEN = refreshToken()
 
     response = requests.get(
